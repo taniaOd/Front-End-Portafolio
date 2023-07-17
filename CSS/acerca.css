@@ -1,0 +1,46 @@
+.acerca {
+  background: var(--background-secundario);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.acerca__titulo {
+  font-size: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-left: 1.5rem;
+}
+.acerca__titulo:hover {
+  color: var(--background-claro);
+  animation-delay: 1.25s;
+}
+.acerca__parrafo {
+  font-family: var(--noto);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  margin-right: 5rem;
+  line-height: 2rem;
+  text-indent: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .acerca {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .acerca__titulo {
+    text-align: center;
+    font-size: 1.35rem;
+    padding-bottom: 1.05rem;
+    padding-left: 0rem;
+  }
+  .acerca__parrafo {
+    text-align: center;
+    text-indent: 0;
+    font-size: 0.95rem;
+    margin-right: 0;
+  }
+}

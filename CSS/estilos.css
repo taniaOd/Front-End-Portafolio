@@ -1,0 +1,32 @@
+:root {
+  --background-claro: #ded7c9;
+  --background-secundario: #568281;
+  --background-neutro: #c7d8d9;
+  /* Tipografia */
+  --noto: "Noto Serif", serif;
+  --merienda: "Merienda", cursive;
+  --ysabeau: "Ysabeau SC", sans-serif;
+}
+
+body {
+  font-family: var(--ysabeau);
+  box-sizing: border-box;
+  background-color: var(--background-claro);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 1.25px;
+  width: 100%;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--background-claro);
+}

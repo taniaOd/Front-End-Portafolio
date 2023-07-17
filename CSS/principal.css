@@ -1,0 +1,100 @@
+.principal {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.principal__div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.principal__foto {
+  width: 32%;
+  height: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.principal__foto--perfil {
+  background-image: url(/perfil.PNG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  width: 260px;
+  height: 260px;
+}
+
+.principal__contenedor {
+  text-align: center;
+  padding-right: 5rem;
+}
+
+.principal__bio {
+  font-size: 1.5rem;
+  margin-bottom: 2.75rem;
+}
+
+.principal__subseccion {
+  font-family: var(--noto);
+  font-size: 0.95rem;
+  margin-left: 2rem;
+  right: 2rem;
+  margin-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.principal__redes {
+  display: flex;
+  justify-content: flex-start;
+}
+.principal__redes__item a,
+.principal__redes__item a:visited,
+.principal__redes__item a:link {
+  color: black;
+}
+.principal__redes__item {
+  margin-right: 2.25rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .principal {
+    padding: 1rem 1.5rem;
+  }
+
+  .principal__div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal__foto {
+    height: 240px;
+    width: 240px;
+    padding-left: 0;
+  }
+  .principal__contenedor {
+    margin-top: 1rem;
+    text-align: center;
+    padding-right: 0;
+  }
+  .principal__bio {
+    font-size: 1.15rem;
+    margin-bottom: 0.85rem;
+  }
+  .principal__subseccion {
+    font-size: 0.95rem;
+    margin-left: 0;
+    right: 2rem;
+    margin-bottom: 2.25rem;
+    line-height: 1.35rem;
+  }
+  .principal__redes {
+    justify-content: center;
+  }
+}

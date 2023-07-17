@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--background-secundario);
+  display: flex;
+  justify-content: center;
+  color: var(--background-claro);
+  text-align: center;
+}
+
+.footer__pie {
+  letter-spacing: 0.25rem;
+  font-size: small;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__pie {
+    font-weight: bold;
+  }
+}
