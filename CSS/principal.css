@@ -19,7 +19,7 @@
 }
 
 .principal__foto--perfil {
-  background-image: url(/perfil.PNG);
+  background-image: url("./img/perfil.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
